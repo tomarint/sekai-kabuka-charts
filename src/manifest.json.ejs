@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "version": "<%= version %>",
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "__MSG_extName__"
+  },
+  "default_locale": "en",
+  "description": "__MSG_extDescription__",
+  "icons": {
+    "16": "images/icon16.png",
+    "24": "images/icon24.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+<% if (browser === 'firefox') { -%>
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{af41170f-e3d8-485c-b4ba-bb49c23b5bf4}"
+    }
+  },
+<% } -%>
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sekai-kabuka.com/*",
+        "https://realtime-chart.info/*"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}

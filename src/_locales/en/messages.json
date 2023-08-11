@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Sekai-Kabuka Charts",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "This extension correctly displays charts in Sekai-Kabuka.",
+    "description": "Extension description"
+  }
+}

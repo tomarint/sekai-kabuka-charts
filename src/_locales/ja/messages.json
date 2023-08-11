@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "世界の株価チャート",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "「世界の株価」のサイトを正常に表示できるようにします。",
+    "description": "Extension description"
+  }
+}
