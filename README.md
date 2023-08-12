@@ -8,6 +8,7 @@
 
 ブラウザ拡張機能ストアからインストールできます。
 
+https://addons.mozilla.org/ja/firefox/addon/sekai-kabuka-charts/
 
 ## 使用方法
 
