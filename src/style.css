@@ -4,12 +4,6 @@
   transform: scale(1.6) !important;
   transform-origin:0 0 !important;
 }
-.chbody_w{
-  /* zoom:200%; */
-  zoom: 1 !important;
-  transform: scale(2.0) !important;
-  transform-origin:0 0 !important;
-}
 .img-ol2,.img-ol2k{
   /* zoom:0.5; */
   zoom: 1 !important;
